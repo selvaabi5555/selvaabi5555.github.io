@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: #B0B0B0;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 15% 85%;
+    }
+    .mt{
+        display:grid;
+        grid-template-columns: 35% 60%;
+        
+    }
+    .aboutmt{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+
+    }
+    .nav>div{
+        width:40px;
+        height:10px;
+        padding:20px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .innernav{
+        background-color: #D9D9D9;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="nav">
+                <div class="innernav">
+                    Home
+                </div>
+                <div class="innernav">
+                    Contact
+                </div>
+                <div class="innernav">
+                    About
+                </div>
+                <div class="innernav">
+                    Help
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="mt">
+                <div class="aboutmt">
+                   <div class="title">
+                    MT15
+                   </div>
+                   <div class="desc">
+                    Yamaha MT 15 is a neked version
+                    of the Yamaha R15 V3 and its design is
+                    inspired by the MT09.The MT 15 comes
+                    with 155 cc single cylinder liquid cooled
+                    SOHC engine which produces the max power of 
+                    18.5 PS at 10000 rpm and 13.9 Nm torque at 8500 rpm.The bike comes with a 6 speed gearbox.
+                   </div>
+
+                </div>
+                <div class="img">
+                    <img src="product.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
